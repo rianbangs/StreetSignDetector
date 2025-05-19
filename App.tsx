@@ -1,6 +1,6 @@
 import React from 'react';
-import StreetSignDetector from './src/components/StreetSignDetector';
-import { loadTF } from './utils/TensorFlowSetup';
+import StreetSignDetector from './src/utils/components/StreetSignDetector';
+
 
 
 function App(): React.JSX.Element {
