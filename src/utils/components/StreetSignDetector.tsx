@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, Button } from 'react-native';
 import { Module, Tensor } from 'react-native-pytorch';
+
+
 import { Camera, useCameraDevices } from 'react-native-vision-camera';
 
 async function loadModel() {
-  const module = await Module.loadAsset(',models/streetsign_simple.pt');
+ const module = await Module.loadAsset('models/streetsign_simple.pt');
   return module;
 }
 

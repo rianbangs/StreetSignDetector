@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text } from 'react-native';
-import { loadModel, runModel } from '../utils/modelHandler';
+import { loadModel, runModel } from './modelHandler';
 
 export default function StreetSignDetector() {
   const [model, setModel] = useState(null);
